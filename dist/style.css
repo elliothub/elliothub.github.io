@@ -147,7 +147,7 @@ a span:first-child {
     height: 40px;
   }
 }
-.menu-wrapper:hover .menu {
+.menu-wrapper:active .menu {
   width: 200px;
   height: 275px;
   border-radius: 3px;
@@ -157,7 +157,7 @@ a span:first-child {
   opacity: 0;
   transition: all 50ms ease-in;
 }
-.menu-wrapper:hover .menu ul {
+.menu-wrapper:active .menu ul {
   display: block;
   list-style-type: none;
   color: #fff;
@@ -175,7 +175,7 @@ a span:first-child {
   width: 180px;
   margin: 0 auto;
 }
-.menu-wrapper:hover .menu ul li a {
+.menu-wrapper:active .menu ul li a {
   font-family: "Product Sans", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
   font-weight: 400;
   text-decoration: none;
@@ -187,13 +187,13 @@ a span:first-child {
   border-radius: 4px;
   transition: all 100ms ease-in;
 }
-.menu-wrapper:hover .menu ul li a:hover {
+.menu-wrapper:active .menu ul li a:hover {
   color: #4285F4;
   background: #121212;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   -webkit-appearance: none;
 }
-.menu-wrapper:hover .menu ul li a:focus, .menu-wrapper:hover .menu ul li a:active {
+.menu-wrapper:hover .menu ul li a:focus, .menu-wrapper:active .menu ul li a:active {
   color: #fff;
   background-color: #4285F4;
 }
